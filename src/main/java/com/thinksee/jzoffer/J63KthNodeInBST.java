@@ -113,24 +113,4 @@ public class J63KthNodeInBST {
         return res;
     }
 
-    public static void main(String[] args) {
-        BSTNode root = null;
-        // 1. 插入
-        for(Integer value :new ArrayList<Integer>(Arrays.asList(2, 3, 4, 5, 6, 7, 8))) {
-            if (null != insert(root, value)) {
-                System.out.println("insert() error");
-                return;
-            }
-        }
-        // 2.遍历
-        boolean flag = true;
-        for(Integer value : traverse(root)){
-            if(flag){
-                System.out.print(value);
-            }else{
-                System.out.print(" " + value);
-            }
-        }
-
-    }
 }

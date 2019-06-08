@@ -68,19 +68,4 @@ public class J64StreamMedian {
         return median;
     }
 
-    public static void main(String[] args) throws Exception{
-        Random random = new Random(1000);
-        List<Integer> arr = new ArrayList<Integer>();
-        for(int i = 0; i < 51; ++i){
-            int tmp = random.nextInt(1000) % (1000 - 10 + 1) + 10;
-            insert(tmp);
-            arr.add(tmp);
-        }
-        System.out.println(arr);
-        Collections.sort(arr);
-        System.out.println(arr);
-        System.out.println(arr.get(25));
-        System.out.println(getMedian());
-
-    }
 }

@@ -58,8 +58,4 @@ public class J66StringPathInMatrix {
         return hasPath;
     }
 
-    public static void main(String[] args) {
-        char[][] matrix = {{'a', 'b', 'c', 'e'}, {'s', 'f', 'c','s'}, {'a', 'd', 'e', 'e'}};
-        System.out.println(hasPath(matrix, "abfdecce"));
-    }
 }

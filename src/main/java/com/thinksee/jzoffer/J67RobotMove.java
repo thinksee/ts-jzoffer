@@ -65,7 +65,5 @@ public class J67RobotMove {
         }
         return sum;
     }
-    public static void main(String[] args) {
-        System.out.println(movingCount(18,40,50));
-    }
+
 }

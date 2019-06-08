@@ -75,8 +75,4 @@ public class J65MaxInSlidingWindow {
         return result;
     }
 
-    public static void main(String[] args) {
-        List<Integer> nums = new ArrayList<Integer>(Arrays.asList(2, 3, 4, 2, 6, 2, 5, 1));
-        System.out.println(maxInWindows(nums, 3));
-    }
 }
